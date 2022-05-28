@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Projeto BKB Code</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./src/css/reset.css" />
+        <link rel="stylesheet" href="./src/css/style.css" />
+
+        <script src="./src/js/produtos.js"></script>
+        <script defer src="./src/js/script.js"></script>
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <div class="container">
+                <img
+                    src="./src/assets/Projeto BKB Code 1.png"
+                    alt="Projeto BKB Code"
+                />
+                <img src="./src/assets/Logos 1.png" alt="Logo BKB + Kenzie" />
+            </div>
+        </header>
+
+        <main>
+            <section class="banner">
+                <img
+                    src="./src/assets/banner.png"
+                    alt="Banner com hamburgueres"
+                />
+            </section>
+
+            <section class="produtos">
+                <div class="container">
+                    <ul class="listaProdutos"></ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <section class="carrinho">
+                <header class="infoPedido">
+                    <div class="container">
+                        <div class="usuario">
+                            <h3>Olá Kenzie | Minha sacola</h3>
+                            <p>Retirar no balcão</p>
+                        </div>
+                        <p class="precoTotal">Total: R$ 0,00</p>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="pedido">
+                        <ul class="listaCarrinho"></ul>
+                    </div>
+                    <div class="botoesFinalizarPedido">
+                        <div class="button">
+                            <a href="./bk-token.html">Finalizar pedido</a>
+                        </div>
+                        <button class="button" type="button">
+                            Cancelar pedido
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
